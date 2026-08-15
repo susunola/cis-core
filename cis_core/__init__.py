@@ -2,9 +2,9 @@
 
 This package is the shared layer planned for the cis-* family:
 
-    cis-image  (金汤·筑城 / Forge)  — hardened golden image builder
-    cis-host   (金汤·守城 / Keep)   — host hardening & drift automation
-    cis-cloud  (金汤·巡城 / Watch)  — multi-cloud configuration compliance
+    cis-image  — hardened golden image builder
+    cis-host   — host hardening & drift automation
+    cis-cloud  — multi-cloud configuration compliance
 
 Planned shared content (landing as the family consolidates its rule
 catalogs and reporting):

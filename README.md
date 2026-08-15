@@ -2,13 +2,11 @@
 
 **cis-core** 是 `cis-*` 合规工具家族的共享基础层(shared foundation)。家族三件套:
 
-| 工具 | 中文名 | 定位 | 仓库 |
-|---|---|---|---|
-| **cis-image** | 金汤·筑城 (Forge) | 镜像源头 · CIS 加固黄金镜像构建 | [github.com/susunola/cis-image](https://github.com/susunola/cis-image) |
-| **cis-host** | 金汤·守城 (Keep) | 主机运行时 · CIS 扫描/加固/漂移监控 | [github.com/susunola/cis-host](https://github.com/susunola/cis-host) |
-| **cis-cloud** | 金汤·巡城 (Watch) | 云上配置 · 多云 CIS 合规 | [github.com/susunola/cis-cloud](https://github.com/susunola/cis-cloud) |
-
-口号:**固若金汤 · CIS compliance, automated**。
+| 工具 | 定位 | 仓库 |
+|---|---|---|
+| **cis-image** | 镜像源头 · CIS 加固黄金镜像构建 | [github.com/susunola/cis-image](https://github.com/susunola/cis-image) |
+| **cis-host** | 主机运行时 · CIS 扫描/加固/漂移监控 | [github.com/susunola/cis-host](https://github.com/susunola/cis-host) |
+| **cis-cloud** | 云上配置 · 多云 CIS 合规 | [github.com/susunola/cis-cloud](https://github.com/susunola/cis-cloud) |
 
 ## 这个包现在是什么
 
