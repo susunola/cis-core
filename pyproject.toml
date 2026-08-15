@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cis-core"
+version = "0.1.0"
+description = "Shared foundation of the cis-* family — rule catalogs & report schemas (planned)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "susunola"}]
+requires-python = ">=3.9"
+keywords = ["cis", "compliance", "security", "benchmark", "hardening"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+]
+
+[project.urls]
+Homepage = "https://github.com/susunola/cis-core"
+Repository = "https://github.com/susunola/cis-core.git"
+Issues = "https://github.com/susunola/cis-core/issues"
+
+[tool.setuptools]
+packages = ["cis_core"]
+
+[tool.setuptools.dynamic]
+version = {attr = "cis_core.VERSION"}
