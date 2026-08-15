@@ -1,19 +1,21 @@
-"""cis-core — shared foundation of the cis-* family.
+"""cis-core — one pip install for the whole cis-* family.
 
-This package is the shared layer planned for the cis-* family:
+Installing this package pulls in the three tools as dependencies, so a single
+command gives you the complete Compliance-as-Code family:
 
-    cis-image  — hardened golden image builder
-    cis-host   — host hardening & drift automation
-    cis-cloud  — multi-cloud configuration compliance
+    pip install cis-core
+        -> cis-image   hardened golden image builder (console script: cis-image)
+        -> cis-host    host hardening & drift automation (console script: cis-host)
+        -> cis-cloud   multi-cloud CIS compliance (console script: cis-cloud)
 
-Planned shared content (landing as the family consolidates its rule
-catalogs and reporting):
+The shared layer is reserved for content the family truly shares as it
+consolidates:
 - unified rule-catalog format (merging cis-cloud's catalog.json and
   cis-image's rules.json into one schema)
 - shared report schema / export conventions (HTML / JSON / SARIF / XCCDF)
 - family brand assets and naming conventions
 """
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
 __all__ = ["VERSION"]
