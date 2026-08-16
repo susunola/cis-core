@@ -3,9 +3,9 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cis-core"
+name = "ohbs-core"
 version = "0.2.0"
-description = "One pip install for the whole cis-* family — cis-image + cis-host + cis-cloud + shared core"
+description = "One pip install for the whole ohbs-* family — ohbs-image + ohbs-host + ohbs-cloud + shared core"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "susunola"}]
@@ -21,9 +21,9 @@ classifiers = [
     "Topic :: Security",
 ]
 dependencies = [
-    "cis-image",
-    "cis-host",
-    "cis-cloud",
+    "ohbs-image",
+    "ohbs-host",
+    "ohbs-cloud",
 ]
 
 [project.urls]

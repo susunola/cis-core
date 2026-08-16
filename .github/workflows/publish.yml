@@ -1,6 +1,6 @@
 name: publish-pypi
 
-# Publishes cis-core to PyPI when a version tag (v*) is pushed.
+# Publishes ohbs-core to PyPI when a version tag (v*) is pushed.
 on:
   push:
     tags:
@@ -27,6 +27,6 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           # Trusted publishing: enable once at https://pypi.org/manage/account/publishing/
-          # (owner: the account that owns the "cis-core" project)
+          # (owner: the account that owns the "ohbs-core" project)
           # Otherwise create a PyPI API token and store it as PYPI_TOKEN.
           password: ${{ secrets.PYPI_TOKEN }}

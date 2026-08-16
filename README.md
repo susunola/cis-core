@@ -3,7 +3,7 @@
 **cis-core** 是 `cis-*` 合规工具家族的**统一安装入口(meta-package)**:一条命令装齐三件套。
 
 ```bash
-pip install cis-core
+pip install ohbs-core
 ```
 
 安装后获得三个命令,覆盖合规全生命周期:
@@ -20,7 +20,7 @@ pip install cis-core
 
 ## 这个包是什么
 
-- **v0.2.0 起是元包(meta-package)**:`dependencies` 声明了 `cis-image` / `cis-host` / `cis-cloud`,pip 安装时会一并拉取三件套和它们的全部数据(Terraform stacks、Ansible roles 等),离线可用;
+- **v0.2.0 起是元包(meta-package)**:`dependencies` 声明了 `ohbs-image` / `ohbs-host` / `ohbs-cloud`,pip 安装时会一并拉取三件套和它们的全部数据(Terraform stacks、Ansible roles 等),离线可用;
 - 本包自身仍保留 `cis_core` 模块,作为未来**真正共享代码**的载体。
 
 ## 规划中的共享内容
