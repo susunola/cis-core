@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ohbs-core"
-version = "0.2.0"
+version = "0.2.1"
 description = "One pip install for the whole ohbs-* family — ohbs-image + ohbs-host + ohbs-cloud + shared core"
 readme = "README.md"
 license = {text = "MIT"}

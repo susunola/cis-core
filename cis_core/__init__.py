@@ -16,6 +16,6 @@ consolidates:
 - family brand assets and naming conventions
 """
 
-VERSION = "0.2.0"
+VERSION = "0.2.1"
 
 __all__ = ["VERSION"]
